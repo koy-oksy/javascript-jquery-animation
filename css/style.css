@@ -1,9 +1,9 @@
 /* Base */
 #icon-container {
   position: relative;
-  width: 100px; /* задаємо ширину контейнера для іконки */
-  height: 100px; /* задаємо висоту контейнера для іконки */
-  overflow: hidden; /* необхідно для обмеження видимої області */
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
 }
 #animated-icon {
   font-size: 24px;
