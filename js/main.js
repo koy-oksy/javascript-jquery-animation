@@ -10,11 +10,11 @@ jQuery(document).ready(function ($) {
              window.location.href = $(this).attr('href');
         });
     });
-  $("#animated-icon").click(function () {
-      console.log('clicked at icon');
-      $(this).animate({
-        marginright: '-=100px' // Зміщення іконки вліво на 100px
-      }, 1000); // тривалість анімації - 1 секунда
+   $("#animated-icon").click(function () {
+        console.log('clicked at icon');
+        $(this).animate({
+            marginLeft: '-=100px' // Зміщення іконки вліво на 100px
+        }, 1000); // тривалість анімації - 1 секунда
     });
 
 });
